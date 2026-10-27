@@ -36,7 +36,7 @@ def carregar_arquivo(caminho_xls):
     df_completo = pd.concat(dados_totais, ignore_index=True)
     return df_completo
 
-caminho_xls = r'H:\Python\3 etapa\grafico_dinamico_xls\tabelas_xls\Tabela 1.1.2.xls'
+caminho_xls = r'Tabela 1.1.2.xls'
 try:
     df = carregar_arquivo(caminho_xls)
     
